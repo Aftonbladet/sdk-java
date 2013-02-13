@@ -1,13 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-    <groupId>no.spp.sdk</groupId>
-    <artifactId>spp-parent</artifactId>
+    <groupId>se.aftonbladet.spid</groupId>
+    <artifactId>ab-spp-parent</artifactId>
     <version>1.3.10</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>se.aftonbladet.spid</groupId>
-  <artifactId>spp-sdk</artifactId>
+  <artifactId>ab-spp-sdk</artifactId>
   <packaging>jar</packaging>
   <name>spp-sdk</name>
   <url>http://code.google.com/p/vgservices-sdk/</url>
