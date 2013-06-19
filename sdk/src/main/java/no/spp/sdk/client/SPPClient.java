@@ -129,9 +129,9 @@ public abstract class SPPClient {
      * @throws no.spp.sdk.exception.SPPClientRefreshTokenException this will only be thrown if autoRefreshToken is set to true and it fails to refresh the token if it has expired.
      */
     public SPPClientResponse makeApiRequest(SPPClientRequest request) throws SPPClientException, SPPClientResponseException, SPPClientRefreshTokenException {
-        oauthCredentials = refreshAndGetOauthCredentials();
         SPPClientResponse response = null;
         try {
+	        oauthCredentials = refreshAndGetOauthCredentials();
         	response = sppApi.makeRequest(request, oauthCredentials.getAccessToken());
         } catch(SPPClientInvalidGrantException e) {
         	log.info("Caught exception that we handle", e);
