@@ -1,13 +1,21 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>no.spp.sdk</groupId>
-    <artifactId>spp-parent</artifactId>
+    <parent>
+        <groupId>se.aftonbladet.maven</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.1.5</version>
+        </parent>
+    <groupId>se.aftonbladet.spid</groupId>
+    <artifactId>ab-spp-parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.3.10-SNAPSHOT</version>
+    <version>1.3.12-SNAPSHOT</version>
+
     <name>spp-parent</name>
+    <scm>
+        <connection>scm:git:git://git@github.com:Aftonbladet/sdk-java.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/Aftonbladet/sdk-java.git</developerConnection>
+        <url>https://github.com/Aftonbladet/sdk-java</url>
+    </scm>
     <build>
         <plugins>
             <plugin>

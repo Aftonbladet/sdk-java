@@ -1,12 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
-    <groupId>no.spp.sdk</groupId>
-    <artifactId>spp-parent</artifactId>
-    <version>1.3.10-SNAPSHOT</version>
+    <groupId>se.aftonbladet.spid</groupId>
+    <artifactId>ab-spp-parent</artifactId>
+    <version>1.3.12-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>no.spp.example</groupId>
+  <groupId>se.aftonbladet.spid</groupId>
   <artifactId>spp-example</artifactId>
   <packaging>war</packaging>
   <name>spp-example</name>
@@ -45,8 +44,8 @@
       <version>1.6.1</version>
     </dependency>
     <dependency>
-      <groupId>no.spp.sdk</groupId>
-      <artifactId>spp-sdk</artifactId>
+      <groupId>se.aftonbladet.spid</groupId>
+      <artifactId>ab-spp-sdk</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>
