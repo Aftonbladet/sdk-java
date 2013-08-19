@@ -11,7 +11,7 @@ The branch 'ab-sdk-java' is made to keep aftonbladets unique changes. This is re
 ### Workflow to make changes
 
 1. Work in master: `git checkout master`
-1. Ensure master is in sync with spid: `git xxx`
+1. Ensure master is in sync with spid, see https://help.github.com/articles/syncing-a-fork
 2. Make changes in master and test locally
 3. Pull the changes in to aftonbladets branch: `git checkout ab-sdk-java`
 4. Commit & Push -> Changes will be built in Bamboo. If satisfied make a release by manually triggering the "Build release" phase. 
