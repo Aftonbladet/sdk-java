@@ -16,4 +16,4 @@ The branch 'ab-sdk-java' is made to keep aftonbladets unique changes. This is re
 3. Pull the changes in to aftonbladets branch: `git checkout ab-sdk-java`
 4. Commit & Push -> Changes will be built in Bamboo. If satisfied make a release by manually triggering the "Build release" phase. 
 5. Happily use the now published artifact from ab-nexus.
-6. If changes should be contributed back to spid: Make pull request.
+6. If changes should be contributed back to spid: Make a Github pull request from master.
