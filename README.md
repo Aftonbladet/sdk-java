@@ -3,12 +3,12 @@ SPiD SDK for Java
 
 Supported java versions are 1.6 or greater.
 
-= Aftonbladet fork information
+## Aftonbladet fork information
 Aftonbladet maintains a fork from spids repo. 
 Aftonbladets master branch is meant to be kept in sync with spids master
 The branch 'ab-sdk-java' is made to keep aftonbladets unique changes. This is required to be able to perform releases for nexus/maven, since spid does not deploy artifacts in any public maven repo.  
 
-== Workflow to make changes
+### Workflow to make changes
 
 1. Work in master: `git checkout master`
 1. Ensure master is in sync with spid: `git xxx`
